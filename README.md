@@ -31,8 +31,8 @@ The southern hemisphere shows a positive correlation (r = 0.38) between latitude
 
 The difference in correlation strengths could be explained by the earth’s tilt during this time of year (1/26/2024).  The southern hemisphere is transitioning from summer to fall and is likely experiencing more temperate climate.  Whereas the northern hemisphere is tilted away from the sun where the difference in temperatures are more significant between cities as we move further north.
 
-![Northern Hemisphere:  Temperature vs. Latitude](output_data\North-Temp.png)
-![Southern Hemisphere:  Temperature vs. Latitude](output_data\South-Temp.png)
+![Northern Hemisphere:  Temperature vs. Latitude](output_data/North-Temp.png)
+![Southern Hemisphere:  Temperature vs. Latitude](output_data/South-Temp.png)
 
 ### Humidity vs. Latitude Linear Regression Plot
 
@@ -40,28 +40,28 @@ In the northern hemisphere, we can see a moderate positive correlation between h
 
 This unexpected result raises question as to whether this pattern is coincidence as it is a snapshot in time (1/26/2024).  External factors, such as storms or other weather conditions, could be influencing these results.  Additional study over an extended period of time would be needed to determine if a consistent correlation exists. 
 
-![Northern Hemisphere:  Humidity vs. Latitude](output_data\North-Humid.png)
+![Northern Hemisphere:  Humidity vs. Latitude](output_data/North-Humid.png)
 ![Southern Hemisphere:  Humidity vs. Latitude](output_data/South-Humid.png)
 
 ### Cloudiness vs. Latitude Linear Regression Plot
 
 In both the northern and southern hemispheres, there is a noticeable but weak correlation between cloudiness and latitude. The northern hemisphere exhibits a weak positive correlation with an r-value of 0.28, while the southern hemisphere displays a similar weak positive correlation with an r-value of 0.25. Given the anticipation of an inverse relationship between the two hemispheres, the observed weak positive correlations, along with their modest r-values, suggest that a long-term correlation between cloudiness and latitude is unlikely.
 
-![Northern Hemisphere:  Cloudiness vs. Latitude](output_data\North-Cloud.png)
-![Southern Hemisphere:  Cloudiness vs. Latitude](output_data\South-Cloud.png)
+![Northern Hemisphere:  Cloudiness vs. Latitude](output_data/North-Cloud.png)
+![Southern Hemisphere:  Cloudiness vs. Latitude](output_data/South-Cloud.png)
 
 ### Wind Speed vs. Latitude Linear Regression Plot
 
 In the northern hemisphere, there appears to be a near-zero correlation between wind speed and latitude, indicated by an r-value of -0.01. However, the southern hemisphere exhibits a moderate negative correlation with a calculated r-value of -0.37.  The northern and southern hemispheres typically demonstrate an inverse relationship.  Given that the northern hemisphere shows a near zero correlation between wind speed and latitude, and the southern hemisphere has a moderate correlation, raises question as to whether this is coincidence.  The inconsistent results could be influenced by external factors such as localized storms or other weather anomalies in the southern hemisphere. Since this is a snapshot in time (1/26/2024), additional study over an extended period of time would be needed to determine if a consistent correlation exists.
 
-![Northern Hemisphere:  Wind Speed vs. Latitude](output_data\North-Wind.png)
-![Southern Hemisphere:  Wind Speed vs. Latitude](output_data\South-wind.png)
+![Northern Hemisphere:  Wind Speed vs. Latitude](output_data/North-Wind.png)
+![Southern Hemisphere:  Wind Speed vs. Latitude](output_data/South-wind.png)
 
 ## Analysis:  VacationPy
 
 The first map, I plotted every city in the WeatherPy project onto a map using the Geoapify API.  Each city on the map is represented by a unique color. The size of each city's marker is proportional to the humidity recorded at the time of data collection, providing a visual representation of humidity across the cities.
 
-![Map of All Cities](images\MapAllCities.JPG)
+![Map of All Cities](images/MapAllCities.JPG)
 
 For the second map, I refined the selection of cities to match my preferred weather conditions:
 - Temperature range between 20 and 32 degrees Celsius.
@@ -70,4 +70,4 @@ For the second map, I refined the selection of cities to match my preferred weat
 
 I also identified hotels for each chosen city located within a 10,000 meter radius of the coordinates. The resulting map displays these selected cities, and when hovering over each city, details such as longitude, latitude, city name, humidity, hotel name, and country are also presented.
 
-![Map of Filtered Cities](images\MapFilteredCities.JPG)
+![Map of Filtered Cities](images/MapFilteredCities.JPG)
