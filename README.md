@@ -55,7 +55,7 @@ In both the northern and southern hemispheres, there is a noticeable but weak co
 In the northern hemisphere, there appears to be a near-zero correlation between wind speed and latitude, indicated by an r-value of -0.01. However, the southern hemisphere exhibits a moderate negative correlation with a calculated r-value of -0.37.  The northern and southern hemispheres typically demonstrate an inverse relationship.  Given that the northern hemisphere shows a near zero correlation between wind speed and latitude, and the southern hemisphere has a moderate correlation, raises question as to whether this is coincidence.  The inconsistent results could be influenced by external factors such as localized storms or other weather anomalies in the southern hemisphere. Since this is a snapshot in time (1/26/2024), additional study over an extended period of time would be needed to determine if a consistent correlation exists.
 
 ![Northern Hemisphere:  Wind Speed vs. Latitude](output_data/North-Wind.png)
-![Southern Hemisphere:  Wind Speed vs. Latitude](output_data/South-wind.png)
+![Southern Hemisphere:  Wind Speed vs. Latitude](output_data/South-Wind.png)
 
 ## Analysis:  VacationPy
 
